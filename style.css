@@ -78,26 +78,26 @@ html {
 }
 
 .nome{
-    font-family: 'Ford Antenna Cond Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
-    left: 510px;
-    font-size: 47px;
+    left: 470px;
+    font-size: 33px;
     top: 37px;
     font-weight: bold;
 }
 .funcao{
     font-family: 'Ford Antenna Cond light';
     position: absolute;
-    left: 512px;
+    left: 465px;
     top: 92px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .telefone{
-    font-family: 'Ford Antenna Cond Bold', 'sans-serif';
+    font-family: 'Ford Antenna Cond light', 'sans-serif';
     position: absolute;
-    left: 514px;
-    font-size: 26px;
+    left: 465px;
+    font-size: 22px;
     top: 153px;
     font-weight: bold
 }
@@ -105,19 +105,11 @@ html {
 .email{
     font-family: 'Ford Antenna Cond Bold', 'sans-serif';
     position: absolute;
-    left: 514px;
+    left: 465px;
     top: 125px;
-    font-size: 26px;
-    font-weight: bold
+    font-size: 23px;
+    
 }
-
-/* #tel{
-    font-family: 'sans-serif';
-    position: absolute;
-    left: 514px;
-    font-size: 26px;
-    top: 153px;
-} */
 
 
 .text-write {

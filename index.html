@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shirink-to-fit=no">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,17 +50,17 @@
             </div>
 
             <!--Button-->
-            <button type="button" class="btn btn-primary" onclick="updateSignature()">Atualizar Assinatura</button>
+            <button type="button" class="btn btn-primary" onclick="limparCampos()">Limpar Campos</button>
         </form>
 
     </div>
     <div class="container mt-5">
         <div class="position-relative">
-            <div class="nome text-write"></div>
-            <div class="funcao text-write"></div>
-            <div class="telefone text-write" id="fone">Fone: (92)</div>
-            <div class="email text-write">E-mail: </div>
-            <img id="signatureImage" src="assinatura.jpg">
+            <div class="nome text-write" id="assinaturaNome"></div>
+            <div class="funcao text-write" id="assinaturaFuncao"></div>
+            <div class="telefone text-write" id="assinaturaTelefone">Fone: (92)</div>
+            <div class="email text-write" id="assinaturaEmail">E-mail:</div>
+            <img id="signatureImage" src="assinatura_novo.jpg">
         </div>
     </div>
 
